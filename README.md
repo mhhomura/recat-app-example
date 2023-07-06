@@ -6,12 +6,12 @@ A complete React application to serve as the foundation for any project
 
 ## Índice
 
-- [Instalação](#instalação)
-- [Estrutura de Diretórios](#estrutura-de-diretórios)
-- [Links Úteis](#links-úteis)
+- [Install](#install)
+- [Project](#estrutura-de-diretórios)
+- [Links](#links-úteis)
 
 
-## Instalação
+## Install
 
 Instructions on how to install and run the project locally. For example:
 
@@ -32,7 +32,7 @@ yarn
 yarn start
 ```
 
-## Estrutura de Diretórios
+## Project
 ```bash
 meu-projeto-react/
   ├── src/
@@ -47,6 +47,6 @@ meu-projeto-react/
   ├── README.md
   └── ...
 ```
-## Links Úteis
+## Links
 
 - [Use demonstration](https://example.mhomura.com)
