@@ -40,7 +40,7 @@ const MainPage = () => {
                             <Input label="Password" placeholder="Enter Your Password" value={password} setState={setPassword} type="password" id="pass" />
                         </Row>
                         <Row style={{ width: '100%' }}>
-                            <Button01 onClick={() => navigate('/testPage')}>Login</Button01>
+                            <Button01 onClick={() => navigate('/test_Page')}>Login</Button01>
                         </Row>
                         <Row style={{ width: '100%', display: 'flex', justifyContent: 'space-between' }}>
                             <div style={{ cursor: 'pointer', color: '#3890E5', fontWeight: '600' }}>Don't have an account</div>
