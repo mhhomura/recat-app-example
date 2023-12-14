@@ -2,6 +2,7 @@ import React from "react";
 import lock from "../../Assets/svg/lock.svg";
 import Input from "../../Components/Input";
 import { Button01 } from "../../Styles/button";
+import { useNavigate } from "react-router-dom";
 import {
     Container,
     CentralDiv,
@@ -12,6 +13,8 @@ import {
 } from './styles';
 
 const MainPage = () => {
+
+    const navigate = useNavigate();
 
     const [user, setUser] = React.useState();
     const [password, setPassword] = React.useState();
@@ -31,13 +34,13 @@ const MainPage = () => {
 
                     <div style={{ display: 'flex', flexDirection: 'column', alignContent: 'center', alignItems: 'center', flex: '1' }}>
                         <Row style={{ width: '100%' }}>
-                            <Input label="Username" placeholder="Enter Your Username" value={user} setState={setUser} type="text" id="user" />
+                            <Input label="Email" placeholder="Enter Your Email" value={user} setState={setUser} type="text" id="user" />
                         </Row>
                         <Row style={{ width: '100%' }}>
                             <Input label="Password" placeholder="Enter Your Password" value={password} setState={setPassword} type="password" id="pass" />
                         </Row>
                         <Row style={{ width: '100%' }}>
-                            <Button01>Login</Button01>
+                            <Button01 onClick={() => navigate('/testPage')}>Login</Button01>
                         </Row>
                         <Row style={{ width: '100%', display: 'flex', justifyContent: 'space-between' }}>
                             <div style={{ cursor: 'pointer', color: '#3890E5', fontWeight: '600' }}>Don't have an account</div>
