@@ -21,6 +21,7 @@ const MainPage = () => {
 
     return (
         <Container>
+            
             <CentralDiv>
                 <DivBoll>
                     <img src={lock} alt="lock" />
@@ -47,6 +48,7 @@ const MainPage = () => {
                             <div style={{ cursor: 'pointer', color: '#3890E5', fontWeight: '600' }}>Forgot password?</div>
                         </Row>
                     </div>
+
                 </Content>
             </CentralDiv>
         </Container>
